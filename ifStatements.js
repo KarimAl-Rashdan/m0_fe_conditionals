@@ -39,10 +39,13 @@ if (weather === "sunny") {
 // "I don't have enough money for a gumball". Write a 
 // conditional statement that prints only one or the other.
 
+if (numQuarters >= 2) {console.log("I have enough money for a gumball");
+} else if (numQuarters < 2) {console.log("I don't have enough money for a gumball");
+}
 // Experiment with manipulating the value held within numQuarters
 // to make sure both conditions can be achieved.
 
-numQuarters = 0
+var numQuarters = 0
 
 console.log("I have enough money for a gumball");
 console.log("I don't have enough money for a gumball");
@@ -65,3 +68,8 @@ console.log("I don't have enough money for a gumball");
 var cupsOfFlour = 1;
 var hasSauce = true;
 
+if (cupsOfFlour < 2 && hasSauce === false) {console.log("I cannot make pizza");
+} else if (cupsOfFlour < 2 && hasSauce === true) {console.log("I cannot make pizza");
+} else if (cupsOfFlour >= 2 && hasSauce === false) {console.log("I cannot make pizza");                                      
+} else if (cupsOfFlour >= 2 && hasSauce === true) {console.log("I can make pizza");
+}

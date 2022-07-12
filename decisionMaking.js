@@ -35,9 +35,22 @@ if (bearChoice === 1) {
 
 // Questions
 // 1. In English, using technical vocabulary, describe what is happening between lines 12 and 16.
+/* The conditional statement reads if the variable doorChoice is exactly equal to 1, then the value of 
+bearClothing will be hat. If doorChoice equals any value that is not exxactly 1, bearClothing will 
+equal scarf. */
 // 2. What variable has a new value assigned to it after the first if statement executes?
+// "bearClothing"
 // 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+// "scarf"
 // 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.
+/* This if statement begins with the conditional branch if bearChoice equals exactly 1 then you will give the bear the hat and the bear will show you a way out. 
+The second branch condition states if bearChoice equals exactly 2, then you tell the bear the hat is too small and it starts to cry. The third 
+branch condition states that if the variable bearChoice equals exactly 3, then the resulting statement will be you run as fast as you can into
+the next room and its full of snakes. Finally, if none of the previous conditions are met (meaning bearChoice does not equal 1, 2, or 3)
+, then the resulting statement will execute: You stay with the bear and become it's best friend. */
 // 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+// "You run as fast as you can into the next room. It's full of snakes!"
 // 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+// "You tell the bear the hat is too small and it starts to cry!"
 // 7. What is your favorite ending?
+// A"You stay with the bear and become it's best friend!"
