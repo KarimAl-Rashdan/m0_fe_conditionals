@@ -1,4 +1,4 @@
-var goodDrivingRecord = true
+var goodDrivingRecord = false
 var isOver25 = true
 
 if (goodDrivingRecord === true && isOver25 === true){console.log("they should get a discount on the car rental");
