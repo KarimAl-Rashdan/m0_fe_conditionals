@@ -1,4 +1,4 @@
-var num = 1
+var num = 64
 if (num %2 === 0){console.log("even");
 } else {console.log("odd");
 }
